@@ -1,0 +1,31 @@
+body{
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    background-color: burlywood;
+}
+h1{
+    font-weight: 900;
+}
+input{
+    width: 300px;
+    font-size: 16pt;
+}
+ul{
+    width: 300px;
+    margin: 5px;
+    font-size: 16pt;
+
+}
+.oculto{
+    display: none;
+}
+
+
+#oculto:hover .oculto{
+    display: block;
+}
+
+.tareasPorHacer{
+    color: gray;
+    font-size: medium;
+}
